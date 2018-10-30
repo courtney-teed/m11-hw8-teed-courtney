@@ -5,3 +5,10 @@ class Desserts {
 	}
 }
 
+class IceCream extends Desserts {
+	constructor() {
+		super(type, calories);
+		this.flavor = flavor;
+		this.scoops = scoops;
+	}
+}
