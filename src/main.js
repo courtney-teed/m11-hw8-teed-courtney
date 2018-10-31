@@ -19,3 +19,4 @@ class IceCream extends Desserts {
 }
 
 const vanillaIceCream = new IceCream('Ice Cream', 340, 'Vanilla', 3);
+console.log(vanillaIceCream);
