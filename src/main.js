@@ -6,7 +6,7 @@ class Desserts {
 }
 
 class IceCream extends Desserts {
-	constructor() {
+	constructor(type, calories, flavor, scoops) {
 		super(type, calories);
 		this.flavor = flavor;
 		this.scoops = scoops;
